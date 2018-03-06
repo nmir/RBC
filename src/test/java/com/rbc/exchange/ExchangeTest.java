@@ -9,11 +9,9 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * End-to-end test that tests the Exchange in its entirety. It spawns an instance of exchange that consists of
- * all the processing components (input, matching engine and output).
- *
- * The purpose of this test is not to test the logic of the matching engine itself. Rather it tests the wiring
- * of the components of the system in order to ensure that they are properly instantiated and communicate with
- * each other to execute the overall functionality of the system.
+ * all the processing components (input, matching engine and output). It tests the wiring of the components of
+ * the system in order to ensure that they are properly instantiated and communicate with each other to execute
+ * the overall functionality of the system.
  */
 public class ExchangeTest extends BaseTest {
 
